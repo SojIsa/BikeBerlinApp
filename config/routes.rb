@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   resources :products
-  root 'static_pages#landing_page'
+  root 'static_pages#index'
 
   get 'static_pages/contact'
 
